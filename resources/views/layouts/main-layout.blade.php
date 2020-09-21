@@ -12,10 +12,8 @@
   <body>
     <div class="container">
       @include('partials.header')
-      @include('partials.main')      
-
-
-
+      @include('partials.navbar')
+      @include('partials.main')
       @include('partials.footer')
 
     </div>

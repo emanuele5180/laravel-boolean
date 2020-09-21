@@ -18,6 +18,7 @@ Route::get('/', function () {
   return view('home',compact('data'));
 });
 
+
 Route::get('/welcome', function () {
     return view('welcome');
 });

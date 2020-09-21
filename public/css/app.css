@@ -10,10 +10,32 @@ body {
 }
 
 .container {
-  /* display:flex; */
   width: 100%;
   height: 100%;
   padding: 0 20%;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+  padding: 100px;
+}
+
+.mainNavbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20%;
+}
+
+.mainNavbar li {
+  list-style: none;
+}
+
+.mainNavbar li a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .pasta {
@@ -24,10 +46,9 @@ body {
   display: flex;
 }
 
-.pasta .imgContainer img {
+.pasta .imgContainer .imgbox {
   width: 30%;
   height: auto;
-  margin: 10 10;
 }
 
 /* .container >*{

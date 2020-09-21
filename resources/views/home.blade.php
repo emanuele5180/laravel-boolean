@@ -7,7 +7,9 @@
   @foreach ($data as $pasta)
 
     @if ($pasta['tipo'] == 'lunga')
-      <img src="{{$pasta['src']}}" alt="pasta lunga">
+      <div class="imgbox">
+        <img src="{{$pasta['src']}}" alt="pasta lunga">        
+      </div>
     @endif
   @endforeach
 
@@ -20,7 +22,9 @@
   @foreach ($data as $pasta)
 
     @if ($pasta['tipo'] == 'corta')
-      <img src="{{$pasta['src']}}" alt="pasta corta">
+      <div class="imgbox">
+        <img src="{{$pasta['src']}}" alt="pasta corta">
+      </div>
     @endif
   @endforeach
 
