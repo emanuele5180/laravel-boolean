@@ -55,6 +55,10 @@ body{
   .imgContainer {
     display: flex;
     flex-wrap: wrap;
+    img{
+      width:315px;
+      margin: 0.5%;
+    }
 
     // .imgbox{
     //   width: 30%;

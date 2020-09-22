@@ -44,6 +44,11 @@ body {
   flex-wrap: wrap;
 }
 
+.pasta .imgContainer img {
+  width: 315px;
+  margin: 0.5%;
+}
+
 .containerFooter {
   display: flex;
   justify-content: space-around;
